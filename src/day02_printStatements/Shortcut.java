@@ -1,0 +1,10 @@
+package day02_printStatements;
+
+public class Shortcut {
+    public static void main(String[] args) {
+      System.out.print("A");
+      System.out.print("\n\nB");
+      System.out.print("\tC");
+
+    }
+}
