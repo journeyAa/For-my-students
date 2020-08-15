@@ -4,6 +4,7 @@ import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 public class Multi_Class {
     public static void main(String[] args) {
+        System.out.println("Class 1");
 
     }
 
@@ -14,6 +15,7 @@ public class Multi_Class {
 }
 class Test1{
     public static void main(String[] args) {
+        System.out.println("Class 2");
 
     }
 
@@ -25,7 +27,7 @@ class Test1{
 }
 class Test2{
     public static void main(String[] args) {
-        System.out.println("wow");
+        System.out.println("Class 3");
 
     }
 
