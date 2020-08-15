@@ -1,4 +1,4 @@
-package day41_Static;
+package day41_toString;
 
 public class Carpet {
 
@@ -37,6 +37,10 @@ public class Carpet {
         System.out.println("Persian Carpet: " + isPersian);
         System.out.println("Total Price: " + calcCost());
         System.out.println("=======================================================================");
+    }
+
+    public String toString(){
+        return "Width: " + width + ", Length: " + length + ", Persian: " + isPersian;
     }
 
 
