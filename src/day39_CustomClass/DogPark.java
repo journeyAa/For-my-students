@@ -40,7 +40,7 @@ public class DogPark {
         }
 
         System.out.println("====================================================================");
-        for (int i = 0; i < dogPark.length-1; i++) {
+        for (int i = 0; i <= dogPark.length-1; i++) {
             dogPark[i].sleep();
         }
 

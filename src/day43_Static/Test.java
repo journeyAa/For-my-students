@@ -11,7 +11,7 @@ public class Test {
         System.out.println(staticBlock3.b);
         System.out.println(staticBlock3.c);
 
-        
+
 
     }
 }
