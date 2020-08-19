@@ -3,7 +3,6 @@ package day39_CustomClass;
 public class DogPark {
     public static void main(String[] args) {
         // dogPark
-        Dog dog1 = new Dog();
         Dog[] dogPark = {new Dog(), new Dog(), new Dog(), new Dog(), new Dog()};
         //                0           1         2           3         4
 
