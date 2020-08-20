@@ -32,7 +32,7 @@ public class MyOffers {
       // jobOffers.removeIf(p-> p.salary<120000 || !p.state.equalsIgnoreCase("VA"));
 
       //  System.out.println(jobOffers.size());
-        
+
         jobOffers.removeIf(each-> each.hasPO==false || each.hasBenefit==false || each.isFullTime==false);
         System.out.println(jobOffers.size());
 
