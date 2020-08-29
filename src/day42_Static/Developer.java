@@ -15,6 +15,7 @@ public class Developer {
     String jobTitle;
     double salary;
 
+
     public void setInfo(String name, char gender, long employeeID, String jobTitle, double salary) {
         this.name = name;
         this.gender = gender;
@@ -22,6 +23,7 @@ public class Developer {
         this.jobTitle = jobTitle;
         this.salary = salary;
     }
+
     public void coding(){
         System.out.println(name + " is coding");
     }

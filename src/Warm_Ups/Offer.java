@@ -9,4 +9,19 @@ package Warm_Ups;
 
  */
 public class Offer {
+    String location;
+    String company;
+    double salary;
+    boolean isFullTime;
+
+    public Offer(String location, String company, double salary, boolean isFullTime){
+        this.location = location;
+        this.company = company;
+        this.salary = salary;
+        this.isFullTime = isFullTime;
+
+    }
+    public String toString(){
+        return "Company Name: " + company + "\nLocation: " + location + "\nAnnual Salary: " + salary + "\nFull Time: " + isFullTime;
+    }
 }
