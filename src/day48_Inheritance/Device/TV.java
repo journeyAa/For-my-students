@@ -1,4 +1,4 @@
-package day48_Inheritance.Decice;
+package day48_Inheritance.Device;
 /*
 2. create a sub class of Device called TV:
 					attributes: brand, model, price, MadeIn, hasBattery, hasMemory, screenSize, RemoteControl

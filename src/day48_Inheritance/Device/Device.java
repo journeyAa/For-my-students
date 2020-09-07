@@ -1,4 +1,4 @@
-package day48_Inheritance.Decice;
+package day48_Inheritance.Device;
 
 public class Device {
     public String brand;

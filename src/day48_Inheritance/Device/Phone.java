@@ -1,6 +1,4 @@
-package day48_Inheritance.Decice;
-
-import java.security.PublicKey;
+package day48_Inheritance.Device;
 
 /*
 	3. create a sub class of device called phone:

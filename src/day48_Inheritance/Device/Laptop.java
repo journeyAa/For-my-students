@@ -1,6 +1,4 @@
-package day48_Inheritance.Decice;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
+package day48_Inheritance.Device;
 
 /*
 4. create a sub class of Device called Laptop:

@@ -1,6 +1,6 @@
 package Warm_Ups.PHONE;
 
-import day48_Inheritance.Decice.Device;
+import day48_Inheritance.Device.Device;
 
 /*
   3. creata a subclass of Phone called Samsung
