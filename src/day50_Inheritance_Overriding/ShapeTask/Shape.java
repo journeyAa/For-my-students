@@ -1,4 +1,4 @@
-package day50.ShapeTask;
+package day50_Inheritance_Overriding.ShapeTask;
 
 /*
 warmup Task:
@@ -20,11 +20,13 @@ public class Shape {
     public double area;
     public double perimeter;
 
-    public double area(){
+    public double CalculateArea(){
         return 0;
     }
 
-    public double calculatePerimeter;
+    public double calculatePerimeter(){
+        return 0;
+    }
 
     public double getArea() {
         return 0;

@@ -1,4 +1,4 @@
-package day50.ShapeTask;
+package day50_Inheritance_Overriding.ShapeTask;
 
 public class Rectangle extends Shape {
     public double width;
@@ -7,11 +7,11 @@ public class Rectangle extends Shape {
     public Rectangle(double width, double length){
         this.width=width;
         this.length=length;
-        area = calculateArea();
+        area = CalculateArea();
         perimeter = calculatePerimeter();
     }
 
-    public double calculateArea(){
+    public double CalculateArea(){
         return width*length;
     }
 
