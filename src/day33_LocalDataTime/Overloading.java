@@ -1,7 +1,7 @@
 package day33_LocalDataTime;
 
 public class Overloading {
-    public static void main(String[] args) { // the main method run the code
+    public static void main(String[] args) { // the Practice method run the code
         System.out.println("String array");
 
 

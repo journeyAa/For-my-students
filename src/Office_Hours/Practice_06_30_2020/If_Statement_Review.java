@@ -31,7 +31,7 @@ public class If_Statement_Review {
 package Office_Hours.Practice_06_24_2020;
 
 public class Switch_Statement_Quiz {
-    public static void main(String[] args) {
+    public static void Practice(String[] args) {
 
 
 

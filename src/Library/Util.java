@@ -322,11 +322,21 @@ public class Util {
     }
     // combines two array and returns it
 
+    public static void sleep(int seconds){
 
-    /*
-        create methods that can sort Integer array, Double Array, Character array in descending order
-        create methods that can combine two double arrays, char arrays, String arrays, Integer arrays, Double arrays, Character Arrays
-     */
+        try{
+            Thread.sleep(seconds*1000);
+        }catch (InterruptedException e){
+
+        }
+    }
+    // causes the current execution thread to sleep for given seconds
+
+
+
+
+
+
 
 
 }
