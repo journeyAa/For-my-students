@@ -1,9 +1,5 @@
 package day43_Static;
 
-import Practice_Method_OverLoading.Date;
-
-import java.util.Arrays;
-
 public class Test {
     public static void main(String[] args) {
 

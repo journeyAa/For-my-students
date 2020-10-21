@@ -42,6 +42,17 @@ public class MultiCatchBlock {
         System.out.println("completed");
         System.out.println("=======================================================================");
 
+        try{
+            System.out.println(8/0);
+            System.out.println("Try block");
+        }catch (ArithmeticException e){
+            System.out.println("Catch block");
+        }finally {
+            System.out.println("Finally block");
+        }
+
+        System.out.println("Completed");
+
 
 
 

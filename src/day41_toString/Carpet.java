@@ -39,6 +39,7 @@ public class Carpet {
     public void getCarpetInfo(){
         DecimalFormat df = new DecimalFormat("0.00");
 
+
         System.out.println("=============================");
         System.out.println("Width: "+width);
         System.out.println("Length: "+ length);

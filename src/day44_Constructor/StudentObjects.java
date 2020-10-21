@@ -1,7 +1,5 @@
 package day44_Constructor;
 
-import Practice_CustomClass.ScrumTeam;
-
 public class StudentObjects {
     public static void main(String[] args) {
 

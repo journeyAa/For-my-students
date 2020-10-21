@@ -7,6 +7,7 @@ public class Credentials {
     public String getUserName(){
         return userName;
     }
+    // read only and a return method. return type must be the same as the private data
 
     public void setUserName(String userName){
         this.userName = userName;
